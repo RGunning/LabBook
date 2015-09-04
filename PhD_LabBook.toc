@@ -1,0 +1,5 @@
+\select@language {english}
+\contentsline {chapter}{\nonumberline Thursday 3rd September 2015}{5}{chapter*.2}
+\contentsline {experiment}{\numberline {1}ChIP-seq}{5}{experiment.1.1}
+\contentsline {subexperiment}{\numberline {1.1}Q-value 0.1}{5}{subexperiment.1.1.1}
+\contentsline {subexperiment}{\numberline {1.2}Q-value 0.05}{5}{subexperiment.1.1.2}
