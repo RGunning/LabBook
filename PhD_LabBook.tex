@@ -30,7 +30,7 @@
 \subexperiment{Q-value 0.1}
 \begin{table}[]
 \centering
-\caption{My caption}
+\caption{Run Statistics for }
 \label{my-label}
 \resizebox{\linewidth}{!}{%
 \begin{tabular}{llllllllllllllllllllllll}
@@ -61,6 +61,18 @@ BM\_T\_36M\_R & BM\_T\_36M\_R & 35649276 & 36348442 & 34327008 & 34812722 & 7199
 	ChIP-seq run on H3K4me3, H3K36me3, H3K9me3, H4K20me3 and H3K27me3
      previous run used q 0.1
      trying more stringent p-value cutoff at Marcela’s suggestion (0.05)
+     set pipeline running on macsunmerged step
+
+\subexperiment{H3K27}
+	New Run (run3) of H3K27ac and H3K27me3 (French samples only). Bl6 and CAST.
+	Using a q-value of 0.05.
+	Using pipeline with ChIP-QC steps. Previous run was without QC
 
 
+\labday{Friday 4th September 2015}
+\experiment{ChIP}
+\subexperiment{Q-value 0.05}
+	macsunmerged step complete (updated results in Figures/4thSeptember)
+	reduced peak count by a couple of percent
+\subexperiment{H3K27}
 \end{document}
